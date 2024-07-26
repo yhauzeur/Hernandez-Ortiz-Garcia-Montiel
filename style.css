@@ -79,8 +79,12 @@ header {
     }
     .header__block__section h1 {
         width: 100%;
+        margin-left: 0;
     }
     header .btn__first {
         width: 100%;
+    }
+    header .header__block__section {
+        align-items: flex-start;
     }
 }
